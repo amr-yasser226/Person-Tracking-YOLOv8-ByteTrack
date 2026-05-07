@@ -1,0 +1,44 @@
+{
+  "video": {
+    "path": "/kaggle/input/datasets/amryasser226/people/palace.mp4",
+    "frames": 329,
+    "width": 1280,
+    "height": 720,
+    "fps": 30.0
+  },
+  "detection_only": {
+    "yolov8n.pt": {
+      "frames": 329,
+      "detections_total": 3617,
+      "detections_per_frame_mean": 10.993920972644377,
+      "elapsed_sec": 12.901002932999972,
+      "fps": 25.501893279819217
+    },
+    "yolov8s.pt": {
+      "frames": 329,
+      "detections_total": 3726,
+      "detections_per_frame_mean": 11.325227963525835,
+      "elapsed_sec": 3.306689244999916,
+      "fps": 99.49528837567208
+    }
+  },
+  "tracking": {
+    "yolov8n.pt": {
+      "frames": 329,
+      "unique_ids": 48,
+      "mean_active_per_frame": 10.480243161094226,
+      "elapsed_sec": 4.5524557930000356,
+      "fps": 72.2686863880981
+    },
+    "yolov8s.pt": {
+      "frames": 329,
+      "unique_ids": 56,
+      "mean_active_per_frame": 10.902735562310031,
+      "elapsed_sec": 8.59176485099988,
+      "fps": 38.29248189464963
+    }
+  },
+  "output_video_mp4v": "/kaggle/working/output_tracked.mp4",
+  "output_video_h264": "/kaggle/working/output_tracked_h264.mp4",
+  "figures_dir": "/kaggle/working/figures"
+}
