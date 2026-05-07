@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Models
+*.pt
+
+# Data & Large Files (Videos)
+data/*.mp4
+data/*.avi
+results/*.mp4
+results/*.avi
+
+# LaTeX auxiliary files
+report/*.aux
+report/*.log
+report/*.out
+report/*.toc
+report/*.nav
+report/*.snm
+report/*.fdb_latexmk
+report/*.fls
+report/*.synctex.gz
+
+# Keeping report.pdf and report.tex
+!report/report.pdf
+!report/report.tex
+
+# OS
+.DS_Store
